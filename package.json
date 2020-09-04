@@ -1,0 +1,18 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "description": "compile sass to css",
+  "main": "main.js",
+  "scripts": {
+    "sasstocss": "node-sass --watch sass/main.scss public/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  }
+}
